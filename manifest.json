@@ -1,0 +1,22 @@
+{
+
+  "description": "Stretch shorts into longs",
+  "manifest_version": 2,
+  "name": "yt-stretch",
+  "version": "1.0",
+  "homepage_url": "https://github.com/dbowring/yt-stretch",
+  "icons": {
+    "48": "icon-48.svg"
+  },
+  "permissions": [
+    "webNavigation", "webRequest", "webRequestBlocking", "https://www.youtube.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "57.0a1"
+    }
+  }
+}
